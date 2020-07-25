@@ -49,7 +49,6 @@
     </div>
   </nav>
 
-  <!--
   <header class="bg-primary text-white" style="background-color: #ad2826 !important;">
     <div class="container text-center">
       <h1>Peyton Turner</h1>
@@ -57,7 +56,7 @@
       <p class="lead">Aspiring Software Engineer</p>
     </div>
   </header>
--->
+
   <section id="about-me">
     <div class="container">
       <div class="row">
@@ -90,105 +89,146 @@
                   <li class="list-inline-item"><h6 class="card-subtitle mb-2 text-muted">GPA: 3.325</h6></li>
                   <li class="list-inline-item"><h6 class="card-subtitle mb-2 text-muted">2018-2022</h6></li>
                 </ul>
-                <h6>Computer Science Coursework</h6>
-                <ul class="list-group" style="margin-bottom: 1rem;">
-                  <li class="list-group-item">
-                    <ul class="list-inline">
-                      <li class="list-inline-item">CS 200: Programming I</li>
-                      <li class="list-inline-item" style="float: right;">A</li>
-                    </ul>
-                  </li>
-                  <li class="list-group-item">                    
-                    <ul class="list-inline">
-                      <li class="list-inline-item">CS 300: Programming II</li>
-                      <li class="list-inline-item" style="float: right;">B</li>
-                    </ul>
-                  </li>
-                  <li class="list-group-item">                    
-                    <ul class="list-inline">
-                      <li class="list-inline-item">CS 400: Programming III</li>
-                      <li class="list-inline-item" style="float: right;">BC</li>
-                    </ul>
-                  </li>
-                  <li class="list-group-item">                    
-                    <ul class="list-inline">
-                      <li class="list-inline-item">CS 354: Machine Organization and Programming</li>
-                      <li class="list-inline-item" style="float: right;">AB</li>
-                    </ul>
-                  </li>
-                  <li class="list-group-item">                    
-                    <ul class="list-inline">
-                      <li class="list-inline-item">CS 240: Intro to Discrete Mathematics</li>
-                      <li class="list-inline-item" style="float: right;">BC</li>
-                    </ul>
-                  </li>
-                  <li class="list-group-item">                    
-                    <ul class="list-inline">
-                      <li class="list-inline-item">CS 577: Introduction to Algorithms</li>
-                      <li class="list-inline-item" style="float: right;">IP</li>
-                    </ul>
-                  </li>
-                  <li class="list-group-item">                    
-                    <ul class="list-inline">
-                      <li class="list-inline-item">CS 525: Linear Optimization</li>
-                      <li class="list-inline-item" style="float: right;">IP</li>
-                    </ul>
-                  </li>
-                </ul>
-                <h6>Mathematics Coursework</h6>
-                <ul class="list-group" style="margin-bottom: 1rem;">
-                  <li class="list-group-item">                    
-                    <ul class="list-inline">
-                      <li class="list-inline-item">MATH 221: Calculus and Analytic Geometry I</li>
-                      <li class="list-inline-item" style="float: right;">AB</li>
-                    </ul>
-                  </li>
-                  <li class="list-group-item">                    
-                    <ul class="list-inline">
-                      <li class="list-inline-item">MATH 222: Calculus and Analytic Geometry II</li>
-                      <li class="list-inline-item" style="float: right;">B</li>
-                    </ul>
-                  </li>
-                  <li class="list-group-item">                    
-                    <ul class="list-inline">
-                      <li class="list-inline-item">MATH 340: Introduction to Matrix and Linear Algebra</li>
-                      <li class="list-inline-item" style="float: right;">BC</li>
-                    </ul>
-                  </li>
-                </ul>
-                <h6>Psychology Coursework</h6>
-                <ul class="list-group">
-                  <li class="list-group-item">                    
-                    <ul class="list-inline">
-                      <li class="list-inline-item">PSYCH 414: Cognitive Psychology</li>
-                      <li class="list-inline-item" style="float: right;">B</li>
-                    </ul>
-                  </li>
-                  <li class="list-group-item">                    
-                    <ul class="list-inline">
-                      <li class="list-inline-item">PSYCH 210: Basic Stats for Psychology</li>
-                      <li class="list-inline-item" style="float: right;">A</li>
-                    </ul>
-                  </li>
-                  <li class="list-group-item">                    
-                    <ul class="list-inline">
-                      <li class="list-inline-item">PSYCH 202: Introduction to Psychology</li>
-                      <li class="list-inline-item" style="float: right;">AP 5</li>
-                    </ul>
-                  </li>
-                  <li class="list-group-item">                    
-                    <ul class="list-inline">
-                      <li class="list-inline-item">PSYCH 225: Research Methods</li>
-                      <li class="list-inline-item" style="float: right;">IP</li>
-                    </ul>
-                  </li>
-                  <li class="list-group-item">                    
-                    <ul class="list-inline">
-                      <li class="list-inline-item">PSYCH 449: Animal Behavior</li>
-                      <li class="list-inline-item" style="float: right;">IP</li>
-                    </ul>
-                  </li>
-                </ul>
+
+                <div class="accordion" id="accordionExample">
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Computer Science Coursework
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <ul class="list-group" style="margin-bottom: 1rem;">
+                          <li class="list-group-item">
+                            <ul class="list-inline">
+                              <li class="list-inline-item">CS 200: Programming I</li>
+                              <li class="list-inline-item" style="float: right;">A</li>
+                            </ul>
+                          </li>
+                          <li class="list-group-item">                    
+                            <ul class="list-inline">
+                              <li class="list-inline-item">CS 300: Programming II</li>
+                              <li class="list-inline-item" style="float: right;">B</li>
+                            </ul>
+                          </li>
+                          <li class="list-group-item">                    
+                            <ul class="list-inline">
+                              <li class="list-inline-item">CS 400: Programming III</li>
+                              <li class="list-inline-item" style="float: right;">BC</li>
+                            </ul>
+                          </li>
+                          <li class="list-group-item">                    
+                            <ul class="list-inline">
+                              <li class="list-inline-item">CS 354: Machine Organization and Programming</li>
+                              <li class="list-inline-item" style="float: right;">AB</li>
+                            </ul>
+                          </li>
+                          <li class="list-group-item">                    
+                            <ul class="list-inline">
+                              <li class="list-inline-item">CS 240: Intro to Discrete Mathematics</li>
+                              <li class="list-inline-item" style="float: right;">BC</li>
+                            </ul>
+                          </li>
+                          <li class="list-group-item">                    
+                            <ul class="list-inline">
+                              <li class="list-inline-item">CS 577: Introduction to Algorithms</li>
+                              <li class="list-inline-item" style="float: right;">IP</li>
+                            </ul>
+                          </li>
+                          <li class="list-group-item">                    
+                            <ul class="list-inline">
+                              <li class="list-inline-item">CS 525: Linear Optimization</li>
+                              <li class="list-inline-item" style="float: right;">IP</li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Mathematics Coursework
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <ul class="list-group" style="margin-bottom: 1rem;">
+                          <li class="list-group-item">                    
+                            <ul class="list-inline">
+                              <li class="list-inline-item">MATH 221: Calculus and Analytic Geometry I</li>
+                              <li class="list-inline-item" style="float: right;">AB</li>
+                            </ul>
+                          </li>
+                          <li class="list-group-item">                    
+                            <ul class="list-inline">
+                              <li class="list-inline-item">MATH 222: Calculus and Analytic Geometry II</li>
+                              <li class="list-inline-item" style="float: right;">B</li>
+                            </ul>
+                          </li>
+                          <li class="list-group-item">                    
+                            <ul class="list-inline">
+                              <li class="list-inline-item">MATH 340: Introduction to Matrix and Linear Algebra</li>
+                              <li class="list-inline-item" style="float: right;">BC</li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card" style="margin-bottom: 1rem;">
+                    <div class="card-header" id="headingThree">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Psychology Coursework
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <ul class="list-group">
+                          <li class="list-group-item">                    
+                            <ul class="list-inline">
+                              <li class="list-inline-item">PSYCH 414: Cognitive Psychology</li>
+                              <li class="list-inline-item" style="float: right;">B</li>
+                            </ul>
+                          </li>
+                          <li class="list-group-item">                    
+                            <ul class="list-inline">
+                              <li class="list-inline-item">PSYCH 210: Basic Stats for Psychology</li>
+                              <li class="list-inline-item" style="float: right;">A</li>
+                            </ul>
+                          </li>
+                          <li class="list-group-item">                    
+                            <ul class="list-inline">
+                              <li class="list-inline-item">PSYCH 202: Introduction to Psychology</li>
+                              <li class="list-inline-item" style="float: right;">AP 5</li>
+                            </ul>
+                          </li>
+                          <li class="list-group-item">                    
+                            <ul class="list-inline">
+                              <li class="list-inline-item">PSYCH 225: Research Methods</li>
+                              <li class="list-inline-item" style="float: right;">IP</li>
+                            </ul>
+                          </li>
+                          <li class="list-group-item">                    
+                            <ul class="list-inline">
+                              <li class="list-inline-item">PSYCH 449: Animal Behavior</li>
+                              <li class="list-inline-item" style="float: right;">IP</li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <a href="#" class="card-link">Card link</a>
                 <a href="#" class="card-link">Another link</a>
               </div>
